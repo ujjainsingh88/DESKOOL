@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" target="_blank" href ="style1.css">
+   <link rel="stylesheet" target="_blank" href ="style.css">
+</head>
+<body>
+    <ul>
+        <div class="topnav">
+            <li id="skul" >DESKOOL</li>
+            <li><a target="_blank" href ="default.asp">Home</a></li>
+            <li><a target="_blank" href ="news.asp">News</a></li>
+            <li><a target="_blank" href ="contact.asp">Contact</a></li>
+            <li><a target="_blank" href ="about.asp">About</a></li>
+            <input type="text" placeholder="Search.."  size="">
+        </div>
+          </ul>
+         
+<link rel="stylesheet" target="_blank" href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The sidebar -->
+<div class="sidebar">
+  <a target="_blank" href ="http://127.0.0.1:5500/file.html"><i class="fa fa-fw fa-home"></i> upload</a>
+  <a target="_blank" href ="http://127.0.0.1:5500/new.html"><i class="fa fa-fw fa-wrench"></i> new</a>
+  <a target="_blank" href ="#clients"><i class="fa fa-fw fa-user"></i> share</a>
+  <button class="dropdown-btn">
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="fa fa-twitter"></a>
+    <a href="https://www.instagram.com/?url=https://www.drdrop.co/" class="fa fa-instagram"></a>
+  </div>
+  <a target="_blank" href ="http://127.0.0.1:5500/teams.html"><i class="fa fa-fw fa-envelope"></i> teams</a>
+</div>
+
+
+    <p id="crt">CREATE A NEW ASSIGNMENT </p>
+    <form action="/action_page.php">
+        <P >Add File</P>
+        <input type="file" id="myFile" name="filename">
+        <input type="submit">
+      </form>
+
+      
+    <form action="/action_page.php">
+        <p> Add Instructions</p>
+        <label for="w3review">Instructions:</label>
+
+        <textarea id="w3review" name="w3review" rows="4" cols="50">
+</textarea>
+<input type = "submit" value ="Submit" />
+      </form>
+
+     
+    <form action="/action_page.php">
+        <p>Set due date </p>
+        <label for="deadline">Submission (date and time):</label>
+<input type="datetime-local" id="deadline" name="deadline">
+<input type = "submit" value ="Submit" />
+      </form>
+</body>
+<script src="index.js"></script>
+</html>
